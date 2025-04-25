@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIELIT Imphal</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    @font-face {
+            font-family:"epaomayek";
+            src: url("EPAOMAYEK.woff") format("woff");
+        }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    .logo {
+      margin-right: 20px;
+    }
+
+    .logo img {
+      width: 90px;
+      height:90px;
+      background-image: cover;
+    }
+
+    .institute-info h1 {
+      font-size: 1.2rem;
+      color: #07507B;
+    }
+
+    .institute-info p {
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    nav {
+      background-color: #07507B;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      position: relative;
+    }
+
+    nav a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav li:hover {
+      background-color: #009afd;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #e4f4fd;
+      width: 250px;
+      z-index: 1000;
+    }
+
+    .dropdown li {
+      width: 100%;
+    }
+
+    .dropdown a {
+      color: #07507B;
+      padding: 10px 15px;
+    }
+
+    nav li:hover .dropdown {
+      display: block;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+      gap: 30px;
+    }
+
+    .intro {
+      flex: 1 1 60%;
+    }
+
+    .notice-accred {
+      flex: 1 1 30%;
+    }
+
+    .intro img {
+      float: left;
+      margin: 10px 20px 10px 0;
+      width: 300px;
+    }
+
+    .welcome {
+      color: #07507B;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .notice-accred ul {
+      list-style: none;
+    }
+
+    .notice-accred li {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .notice-accred .date {
+      background-color: #009afd;
+      color: white;
+      padding: 8px;
+      font-size: 0.75rem;
+      margin-right: 10px;
+    }
+
+    .notice-accred a {
+      color: #07507B;
+      text-decoration: none;
+    }
+
+    footer {
+       
+      background-color: #eee;
+      padding: px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .link-service, .contact, .form {
+      flex: 1 1 30%;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    .links ol, .services ol {
+      padding-left: 20px;
+      
+    }
+
+    .links a, .services a {
+      color: #07507B;
+      text-decoration: none;
+    }
+
+    .form {
+      background-color: #009afd;
+      margin: 0;
+      padding: 20px 20px 100px ;
+      color: white;
+    }
+    .form input,
+    .form textarea {
+      width: 70%;
+      
+      
+    
+    }
+
+    
+
+    .submit {
+      background-color: #07507B;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      cursor: pointer;
+      
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/kakppa/image copy.png" alt="NIELIT Logo" />
+    </div>
+    <div class="institute-info">
+      <p><font face="epaomayek" size="5" color="#07507B">nesNneL INstityuY Aof IleQtroniQ AeNd INformesN teQnologi</font></p>
+      <h1>NATIONAL INSTITUTE OF ELECTRONICS & INFORMATION TECHNOLOGY</h1>
+      <p>Recog: Ministry of Electronics & Information Technology</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">About Us</a>
+        <ul class="dropdown">
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Mission</a></li>
+          <li><a href="#">Executive Director</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Student Zone</a>
+        <ul class="dropdown">
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Admissions</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <img src="/kakppa/image copy 3.png" alt="NIELIT Imphal campus">
+  </div>
+
+  <main>
+    <section class="intro">
+      <p class="welcome">WELCOME TO NIELIT IMPHAL OFFICIAL WEBSITE</p>
+      <img src="/kakppa/image copy 2.png" alt="NIELIT Imphal Building" />
+      <p>NIELIT Imphal (erstwhile CEDT/CEDTI/DOEACC) became operational in July 1989 with the introduction of Three Years Diploma in Electronics Engineering Course. There are 02 Extension Centres of NIELIT Imphal at Churachandpur & Senapati Districts of Manipur. There are 21 NIELIT Centres & Extension Centres in the North Eastern parts of India (Out of 43 all over India).
+        
+        The Centre is located at Akampat, about 5 kms. in the south-east direction from the heart of the Imphal city. Spread over an area of more than 20 acres, it houses the main Institute Buildings consisting of Administrative wing, Lecture Halls, Faculty Rooms, Computer Labs, Mechanical Workshop and several labs in the field of Information, Electronics & Communication Technology. Besides the main institute building, the campus houses the staff quarters, students' hostels, electrical substation and other host of essential facilities.
+
+        NIELIT Imphal is participating in Nation Building by conducting various long term & short term skill development courses in the fields of Electronics & Communication Engineering and Information Technology. NIELIT Imphal also offers various short term courses in the skill development sector with an objective of enhancing the employability of the youth of the state and country as a whole as mandated by the Govt. of India under the National Skill Development policy.
+
+        The long-term courses viz, Diploma in Electronics and Communication Engineering (AICTE recognized), Diploma in Computer Science & Engineering (AICTE recognized), Post Graduate Diploma in Computer Applications (PGDCA), Bachelor of Computer Applications (BCA), Master of Computer Application (MCA) and Master of Science in Information Technology (MSc.IT) are formal courses affiliated to Manipur University (A Central University). NIELIT 'O' Level courses in IT, Hardware and Multimedia are in the non-formal sector but, leading to govt. recognized certificate/P.G. Diploma.</p>
+    </section>
+
+    <aside class="notice-accred">
+      <p class="welcome">NOTICE</p>
+      <ul>
+        <li><div class="date">13 Nov, 2024</div><a href="#">One Day Mega Job Fair</a></li>
+        <li><div class="date">25 Aug, 2024</div><a href="#">Webinar on Big Data</a></li>
+      </ul>
+      <p class="welcome">ACCREDITATION</p>
+      <p>NIELIT Imphal is recognized by the Government of India under the Ministry of Electronics and IT.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="link-service">
+      <div class="links">
+        <p class="welcome">IMPORTANT LINKS</p>
+        <ol>
+          <li><a href="#">Government of Manipur</a></li>
+          <li><a href="#">AICTE</a></li>
+        </ol>
+      </div>
+      <div class="services">
+        <p class="welcome">ONLINE SERVICES</p>
+        <ol>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Examination</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="contact">
+      <p class="welcome">CONTACT ADDRESS</p>
+      <p><strong>NIELIT Imphal</strong></p>
+      <p>Akampat P.O.Box-104,<br>Imphal, Manipur-795001</p>
+      <p><strong>TEL:</strong> (0385)2454109</p>
+      <p><strong>Email:</strong> dir-imphal@nielit.gov.in</p>
+    </div>
+
+    <div class="form">
+      <p class="welcome">CONTACT FORM</p>
+      <form action="#">
+        <label for="name">            Name</label>
+        <input type="text" id="name" /><br>
+
+        <label for="contact">   Contact No.</label>
+        <input type="text" id="contact" /><br>
+
+        <label for="email">             Email</label>
+        <input type="email" id="email" /><br>
+
+        <label for="subject">          Subject</label>
+        <input type="text" id="subject" /><br>
+
+        <label for="message">        Message</label><br>                      
+        <textarea id="message" rows="4"></textarea><br>                      
+
+        <input type="submit" class="submit" value="Submit" />
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
+
